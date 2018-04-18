@@ -2,7 +2,6 @@
 //  TestDemo
 //  Created by bailing on 2018/4/17.
 //  Copyright © 2018年 zhufeng. All rights reserved.
-
 #import "HomeViewController.h"
 #import "UIScrollView+EmptyDataSet.h"
 @interface HomeViewController ()
@@ -350,7 +349,6 @@
 -(void)reloadData
 {
     [self.tableView reloadData];
-
 }
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
